@@ -19,5 +19,5 @@ function Get-PerformanceRecord {
     param (
     )
 
-    $script:PerformanceRecord
+    ($script:PerformanceRecord).GetEnumerator()
 }
