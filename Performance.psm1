@@ -16,4 +16,5 @@ foreach ($fileName in (Get-ChildItem $PSScriptRoot "*.ps1" -Recurse)) {
     }
 }
 
+# This is required for nested modules, to be re-declared in the parent module
 Set-Variable -Scope Script -Name PerformanceRecord -Value @{}
