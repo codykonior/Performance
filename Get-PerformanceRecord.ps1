@@ -21,7 +21,7 @@ function Get-PerformanceRecord {
     )
 
     if ($Name) {
-        ($script:PerformanceRecord).GetEnumerator() | Where { $_.Name -eq $Name }
+        ($script:PerformanceRecord).GetEnumerator() | Where-Object { $_.Name -eq $Name }
     } else {
         ($script:PerformanceRecord).GetEnumerator()
     }
