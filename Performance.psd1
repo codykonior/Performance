@@ -29,7 +29,7 @@ CompanyName = 'Cody Konior'
 Copyright = '(c) 2016 Cody Konior. All rights reserved.'
 
 # Description of the functionality provided by this module
-# Description = ''
+Description = 'Quick functions to start/stop timers for tracking time spent in sections of code'
 
 # Minimum version of the Windows PowerShell engine required by this module
 # PowerShellVersion = ''
