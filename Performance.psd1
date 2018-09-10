@@ -14,7 +14,7 @@ ModuleToProcess = 'Performance.psm1'
 # RootModule = ''
 
 # Version number of this module.
-ModuleVersion = '1.4.0.4'
+ModuleVersion = '1.4.1'
 
 # ID used to uniquely identify this module
 GUID = '92c99362-39cb-45c5-9b98-402f1931d6f9'

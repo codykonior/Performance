@@ -9,10 +9,10 @@ $ErrorActionPreference = "Stop"
 
 foreach ($fileName in (Get-ChildItem $PSScriptRoot "*.ps1" -Recurse)) {
     try {
-	    Write-Verbose "Loading function from path '$fileName'."
-	    .$fileName.FullName
+        Write-Verbose "Loading function from path '$fileName'."
+        .$fileName.FullName
     } catch {
-	    Write-Error $_
+        Write-Error $_
     }
 }
 
