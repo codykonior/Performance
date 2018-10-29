@@ -72,13 +72,13 @@ Description = 'Quick functions to start/stop timers for tracking time spent in s
 FunctionsToExport = @('Add-PerformanceRecord', 'Clear-PerformanceRecord', 'Get-PerformanceRecord')
 
 # Cmdlets to export from this module
-CmdletsToExport = '*'
+CmdletsToExport = @()
 
 # Variables to export from this module
-VariablesToExport = '*'
+VariablesToExport = @()
 
 # Aliases to export from this module
-AliasesToExport = '*'
+AliasesToExport = @()
 
 # List of all modules packaged with this module
 # ModuleList = @()
@@ -96,4 +96,3 @@ AliasesToExport = '*'
 # DefaultCommandPrefix = ''
 
 }
-
